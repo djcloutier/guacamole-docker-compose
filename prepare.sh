@@ -6,6 +6,8 @@ then
 	echo "docker daemon not running, will exit here!"
 	exit
 fi
+mkdir ./home >/dev/null 2>&1
+mkdir ./home/extensions >/dev/null 2>&1
 echo "Preparing folder init and creating ./init/initdb.sql"
 mkdir ./init >/dev/null 2>&1
 mkdir -p ./nginx/ssl >/dev/null 2>&1
