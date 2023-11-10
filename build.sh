@@ -14,5 +14,5 @@ then
 	echo "docker daemon not running, will exit here!"
 	exit
 fi
-prepare.sh
+./prepare.sh
 docker-compose up -d
