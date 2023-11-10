@@ -144,7 +144,7 @@ services:
     - 8080/tcp
     restart: always
     volumes:
-    - ./home:/guachome::rw
+    - ./home:/guachome:rw
 
 ########### optional ##############
   # nginx
